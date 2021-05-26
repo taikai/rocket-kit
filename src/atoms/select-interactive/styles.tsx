@@ -12,6 +12,7 @@ export const SelectWrapper = styled.div`
 
     &__control {
       border-color: ${info};
+      border-radius: 6px;
       min-height: ${rem('50px')};
       transition-duration: 0.3s;
 
