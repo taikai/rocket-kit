@@ -5,7 +5,7 @@ export interface CheckboxButtonProps {
   label?: string | React.ReactNode;
   value: string;
   checked?: boolean;
-  onChange?: () => {};
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   disabled?: boolean;
   className?: string;
   style?: CSSProperties;
