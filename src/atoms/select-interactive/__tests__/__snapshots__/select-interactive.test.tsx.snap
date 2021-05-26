@@ -8,6 +8,7 @@ exports[`Select Interactive renders 1`] = `
 
 .c0 .select__control {
   border-color: hsl(0,0%,48%);
+  border-radius: 6px;
   min-height: 3.125rem;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
