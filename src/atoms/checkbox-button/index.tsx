@@ -5,7 +5,7 @@ export interface CheckboxButtonProps {
   label?: string | React.ReactNode;
   value: string;
   checked?: boolean;
-  onChange?: () => {};
+  onChange?: () => void;
   disabled?: boolean;
   className?: string;
   style?: CSSProperties;
@@ -39,8 +39,7 @@ const CheckboxButton = (props: CheckboxButtonProps) => {
       <Styles.CheckboxInput
         type="checkbox"
         name={value}
-        defaultChecked={checked}
-        aria-checked={checked}
+        checked={buttonChecked}
         onChange={onChange}
         disabled={disabled}
         data-testid={dataTestId}
